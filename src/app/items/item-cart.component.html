@@ -1,0 +1,7 @@
+Select an item to remove from your cart:
+
+<ul>
+  <li *ngFor="let Item of ItemList" (click)="onRemoveItem(Item)">
+    {{ Item }}
+  </li>
+</ul>

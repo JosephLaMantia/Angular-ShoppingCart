@@ -33,15 +33,3 @@ export class ItemCartComponent implements OnInit, OnDestroy {
     this.ItemListSubs.unsubscribe();
   }
 }
-
-// export class ItemCartComponent {
-//   enteredItemName = '';
-
-//   constructor(private ItemsService: ItemsService) {}
-
-//   onCreateItem() {
-//     console.log('Created a Item: ' + this.enteredItemName);
-//     this.ItemsService.addItem(this.enteredItemName);
-//     this.enteredItemName = '';
-//   }
-// }
